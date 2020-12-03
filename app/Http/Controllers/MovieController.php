@@ -94,4 +94,14 @@ class MovieController extends Controller
         }
         return response()->json($this->filmes_list);
     }
+
+    public function movieCast($id){
+        $endpoint = $this->endpoint_tmdb;
+        $endpoint .= 'movie/'.$id.'/credits';
+        $endpoint .= '?api_key='.$this->key_tmdb;
+        $endpoint .= '&language='.$this->lang_tmdb;
+        
+        $r = Http::get($endpoint);
+        return response()->json($r->json());
+    }
 }

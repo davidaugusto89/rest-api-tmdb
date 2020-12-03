@@ -24,3 +24,4 @@ Route::get('movies/', [MovieController::class, 'trending']);
 Route::get('movies/trending', [MovieController::class, 'trending']);
 Route::get('movie/{id}', [MovieController::class, 'movieID']);
 Route::get('movies/genre/{id}', [MovieController::class, 'movies_genre']);
+Route::get('movie/cast/{id}', [MovieController::class, 'movieCast']);
