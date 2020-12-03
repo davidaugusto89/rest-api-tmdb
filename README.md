@@ -1,5 +1,14 @@
 # REST API TMDb
 
+## Requisitos básicos
+
+PHP >= 7.1
+
+Composer
+
+Git
+
+
 ## Guia de Instalação
 
 Para instalar a aplicação deve ser executados os seguintes comandos no terminal, no diretório desejado.
