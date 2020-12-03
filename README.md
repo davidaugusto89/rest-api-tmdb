@@ -13,7 +13,7 @@ Git
 
 ## Guia de Instalação
 
-Para instalar a aplicação deve ser executados os seguintes comandos no terminal, no diretório desejado.
+Para instalar a aplicação deve ser executados os seguintes comandos no terminal.
 
 ```sh
 git clone -b develop https://github.com/davidaugusto89/rest-api-tmdb.git rest-api-tmdb
